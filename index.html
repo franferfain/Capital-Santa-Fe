@@ -14,6 +14,8 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/favicon.ico" rel="apple-touch-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -525,7 +527,8 @@
         </div>
 
       </div>
-    </section> End Team Section
+    </section> 
+    <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <br>
@@ -568,37 +571,34 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre completo" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electrónico" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto " required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Cargando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Tu mensaje ha sido enviado. Muchas gracias!. </div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
-            </form>
-
+            <form action="https://formspree.io/f/mvodrpwj"  method="POST">
+            <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre completo" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">   
+              <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electrónico" required>     
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto " required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+            </div>
+            <div class="text-center"><button type="submit">Enviar</button></div>
+          </form>
+       
           </div>
-
         </div>
-
       </div>
     </section><!-- End Contact Section -->
+    <div class="wtp">
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=5493425170473" class="whatsapp" rel="noreferrer"> 
+        <i class="fa fa-whatsapp whatsapp-icon">
 
+        </i>
+      </a>
+    </div>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
