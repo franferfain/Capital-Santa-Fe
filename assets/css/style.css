@@ -469,6 +469,17 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #ffc451;
 }
 
+button, input, optgroup, select, textarea {
+  margin: 10px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  line-height: inherit;
+  font-size: 20px;
+  background: #ffc451;
+  color: #151515;
+  border-radius: 4px;
+  border: none;
+}
 .whatsapp {  
 position: fixed;
 width: 60px;
